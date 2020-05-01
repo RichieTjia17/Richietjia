@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--  Style Untuk activity_main.xml -->
+    <style name="logo">
+        <item name="android:src">@drawable/airplane</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+    <style name="aplikasi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">#FF0066CC</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="aplikasi_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_info</item>
+        <item name="android:textColor">#FF0066CC</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="owner">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/owner</item>
+        <item name="android:textColor">#FFFF9900</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="tombolinfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Info Pemilik</item>
+        <item name="android:backgroundTint">#FF0066CC</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <!--  Style Untuk activity_info_pemilik.xml -->
+    <style name="tentangpemilik">
+        <item name = "android:text">Tentang Pemilik :</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFF6600</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="gambarpemilik">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:src">@drawable/profile</item>
+    </style>
+    <style name="nama_profil">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Richie</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FF99CC00</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="email">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">richietjia@gmail.com</item>
+        <item name="android:textColor">#FF99CC00</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="templatejudulmaskapai">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FF0066CC</item>
+    </style>
+    <style name="templatedeskripsimaskapai">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    <style name="templatenegara">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/negara</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="templatehub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:text">@string/pusat</item>
+
+    </style>
+    <style name="templatealiansi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:text">@string/aliansi</item>
+
+    </style>
+    <style name="templatearmada">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:text">@string/armada</item>
+
+    </style>
+    <style name="templatetujuan">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:text">@string/tujuan</item>
+
+    </style>
+</resources>

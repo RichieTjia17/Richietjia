@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BritishAirwaysActivity">
+
+
+    <ImageView
+        android:id="@+id/british"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/british_airways"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/britishtitle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/britishtitle"
+        app:layout_constraintTop_toBottomOf="@id/british"
+        />
+
+    <TextView
+        android:id="@+id/britishnegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/britishtitle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/britishnegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/britishnegara"
+        app:layout_constraintTop_toBottomOf="@id/britishtitle"
+        />
+
+    <TextView
+        android:id="@+id/britishhub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/britishnegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/britishhub"
+        android:textColor="#FFFF6600"
+        android:text="@string/britishhub"/>
+
+    <TextView
+        android:id="@+id/britishaliansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/britishaliansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/britishaliansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/britisharmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/britishaliansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/britisharmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/britisharmada"
+        app:layout_constraintTop_toBottomOf="@id/britishaliansi"
+        />
+
+    <TextView
+        android:id="@+id/britishtujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/britisharmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/britishtujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/britishtujuan"
+        app:layout_constraintTop_toBottomOf="@id/britisharmada"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

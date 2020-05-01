@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GarudaIndonesiaActivity">
+
+    <ImageView
+        android:id="@+id/garudaindonesia"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/garuda_indonesia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/garudatitle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/garudatitle"
+        app:layout_constraintTop_toBottomOf="@id/garudaindonesia"
+        />
+
+    <TextView
+        android:id="@+id/garudanegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/garudatitle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/garudanegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/garudanegara"
+        app:layout_constraintTop_toBottomOf="@id/garudatitle"
+        />
+
+    <TextView
+        android:id="@+id/garudahub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/garudanegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/garudahub"
+        android:textColor="#FFFF6600"
+        android:text="@string/garudahub"/>
+
+    <TextView
+        android:id="@+id/garudaaliansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/garudaaliansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/garudaaliansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/garudaarmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/garudaaliansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/garudaarmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/garudaarmada"
+        app:layout_constraintTop_toBottomOf="@id/aliansi"
+        />
+
+    <TextView
+        android:id="@+id/garudatujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/garudaarmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/garudatujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/garudatujuan"
+        app:layout_constraintTop_toBottomOf="@id/armada"
+       />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

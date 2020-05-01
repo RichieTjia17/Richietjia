@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChinaAirlinesActivity">
+
+
+    <ImageView
+        android:id="@+id/chinaairlines"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/china_airlines"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/chinatitle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/chinatitle"
+        app:layout_constraintTop_toBottomOf="@id/chinaairlines"
+        />
+
+    <TextView
+        android:id="@+id/chinanegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/chinatitle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/chinanegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/chinanegara"
+        app:layout_constraintTop_toBottomOf="@id/chinatitle"
+        />
+
+    <TextView
+        android:id="@+id/chinahub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/chinanegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/chinahub"
+        android:textColor="#FFFF6600"
+        android:text="@string/chinahub"/>
+
+    <TextView
+        android:id="@+id/chinaaliansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/chinaaliansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/chinaaliansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/chinaarmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/chinaaliansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/chinaarmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/chinaarmada"
+        app:layout_constraintTop_toBottomOf="@id/chinaaliansi"
+        />
+
+    <TextView
+        android:id="@+id/chinatujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/chinaarmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/chinatujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/chinatujuan"
+        app:layout_constraintTop_toBottomOf="@id/chinaarmada"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

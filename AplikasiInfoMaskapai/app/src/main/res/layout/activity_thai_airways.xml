@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThaiAirwaysActivity">
+
+
+    <ImageView
+        android:id="@+id/thaiairways"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/thai_airways"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/thaititle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/thaititle"
+        app:layout_constraintTop_toBottomOf="@id/thaiairways"
+        />
+
+    <TextView
+        android:id="@+id/thainegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/thaititle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/thainegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/thainegara"
+        app:layout_constraintTop_toBottomOf="@id/thaititle"
+        />
+
+    <TextView
+        android:id="@+id/thaihub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/thainegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/thaihub"
+        android:textColor="#FFFF6600"
+        android:text="@string/thaihub"/>
+
+    <TextView
+        android:id="@+id/thaialiansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/thaialiansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/thaialiansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/thaiarmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/thaialiansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/thaiarmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/thaiarmada"
+        app:layout_constraintTop_toBottomOf="@id/aliansi"
+        />
+
+    <TextView
+        android:id="@+id/thaitujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/thaiarmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/thaitujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/thaitujuan"
+        app:layout_constraintTop_toBottomOf="@id/thaiarmada"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

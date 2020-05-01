@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoPemilik">
+
+    <TextView
+        android:id="@+id/tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tentangpemilik"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/richie"
+        style="@style/gambarpemilik"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tentang"
+        />
+
+    <TextView
+        android:id="@+id/nama_profil"
+        style="@style/nama_profil"
+        app:layout_constraintTop_toBottomOf="@id/richie"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        style="@style/email"
+        app:layout_constraintTop_toBottomOf="@id/nama_profil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

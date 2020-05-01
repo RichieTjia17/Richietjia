@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LufthansaActivity">
+
+
+    <ImageView
+        android:id="@+id/lufthansa"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/lufthansa"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/lufthansatitle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/lufthansatitle"
+        app:layout_constraintTop_toBottomOf="@id/lufthansa"
+        />
+
+    <TextView
+        android:id="@+id/lufthansanegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/lufthansatitle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/lufthansanegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/lufthansanegara"
+        app:layout_constraintTop_toBottomOf="@id/lufthansatitle"
+        />
+
+    <TextView
+        android:id="@+id/lufthansahub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/lufthansanegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/lufthansahub"
+        android:textColor="#FFFF6600"
+        android:text="@string/lufthansahub"/>
+
+    <TextView
+        android:id="@+id/lufthansaaliansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/lufthansaaliansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/lufthansaaliansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/lufthansaarmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/lufthansaaliansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/lufthansaarmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/lufthansaarmada"
+        app:layout_constraintTop_toBottomOf="@id/lufthansaaliansi"
+        />
+
+    <TextView
+        android:id="@+id/lufthansatujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/lufthansaarmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/lufthansatujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/lufthansatujuan"
+        app:layout_constraintTop_toBottomOf="@id/lufthansaarmada"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

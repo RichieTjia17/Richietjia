@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Anfo App</string>
+    <string name="app_info">Aplikasi Info Maskapai</string>
+    <string name="airline_name">Nama Maskapai</string>
+    <string name="detail">Detail Singkat</string>
+    <string name="owner">Dibuat Oleh Richie</string>
+    <string name="infomaskapai">Daftar Maskapai Penerbangan</string>
+    <string name="infopemilik">Info Pemilik</string>
+
+    <!-- String Untuk Setiap Halaman Maskapai Penerbangan -->
+    <string name="negara">Negara Asal : </string>
+    <string name="pusat">Pusat Penerbangan ( Hub ) : </string>
+    <string name="aliansi">Aliansi : </string>
+    <string name="armada">Jumlah Armada : </string>
+    <string name="tujuan">Jumlah Tujuan : </string>
+
+    <!-- String Garuda Indonesia -->
+    <string name="garudatitle">Garuda Indonesia</string>
+    <string name="garudanegara">Indonesia</string>
+    <string name="garudahub">1. Soekarno Hatta International Airport\n
+        2. Ngurah Rai International Airport\n
+        3. Sultan Hasanuddin International Airport\n
+        4. Sultan Hasanuddin International Airport</string>
+    <string name="garudaaliansi">Skyteam</string>
+    <string name="garudaarmada">144</string>
+    <string name="garudatujuan">96</string>
+
+    <!-- String Singapore Airlines -->
+    <string name="singaporetitle">Singapore Airlines</string>
+    <string name="singaporenegara">Singapura</string>
+    <string name="singaporehub">1. Singapore Changi Airport</string>
+    <string name="singaporealiansi">Star Alliance</string>
+    <string name="singaporearmada">137</string>
+    <string name="singaporetujuan">62</string>
+
+    <!-- String Malaysia Airlines -->
+    <string name="malaysiatitle">Malaysia Airlines</string>
+    <string name="malaysianegara">Malaysia</string>
+    <string name="malaysiahub">1. Kuala Lumpur International Airport</string>
+    <string name="malaysiaaliansi">Oneworld</string>
+    <string name="malaysiaarmada">81</string>
+    <string name="malaysiatujuan">64</string>
+
+    <!-- String Thai Airways -->
+    <string name="thaititle">Thai Airways</string>
+    <string name="thainegara">Thailand</string>
+    <string name="thaihub">1. Bangkok-Suvarnabhumi International Airport\n
+    2. Phuket International Airport</string>
+    <string name="thaialiansi">Star Alliance</string>
+    <string name="thaiarmada">80</string>
+    <string name="thaitujuan">74</string>
+
+    <!-- String China Airlines -->
+    <string name="chinatitle">China Airlines</string>
+    <string name="chinanegara">Taiwan</string>
+    <string name="chinahub">1. Taipei-Taoyuan International Airport</string>
+    <string name="chinaaliansi">Skyteam</string>
+    <string name="chinaarmada">88</string>
+    <string name="chinatujuan">102</string>
+
+    <!-- String Cathay Pacific -->
+    <string name="cathaytitle">Cathay Pacific</string>
+    <string name="cathaynegara">Hong Kong</string>
+    <string name="cathayhub">1. Hong Kong International Airport</string>
+    <string name="cathayaliansi">Oneworld</string>
+    <string name="cathayarmada">133</string>
+    <string name="cathaytujuan">79</string>
+
+    <!-- String Qantas -->
+    <string name="qantastitle">Qantas</string>
+    <string name="qantasnegara">Australia</string>
+    <string name="qantashub">1. Brisbane International Airport\n
+    2. Melbourne International Airport\n
+    3. Sydney International Airport</string>
+    <string name="qantasaliansi">Oneworld</string>
+    <string name="qantasarmada">132</string>
+    <string name="qantastujuan">85</string>
+
+    <!-- String lufthansa -->
+    <string name="lufthansatitle">Lufthansa</string>
+    <string name="lufthansanegara">Jerman</string>
+    <string name="lufthansahub">1. Frankfurt International Airport\n
+    2. Munich International Airport</string>
+    <string name="lufthansaaliansi">Star Alliance</string>
+    <string name="lufthansaarmada">300</string>
+    <string name="lufthansatujuan">220</string>
+
+    <!-- String Air France -->
+    <string name="airfrancetitle">Air France</string>
+    <string name="airfrancenegara">Perancis</string>
+    <string name="airfrancehub">1. Charles de Gaulle International Airport\n
+    2. Orly International Airport</string>
+    <string name="airfrancealiansi">Skyteam</string>
+    <string name="airfrancearmada">225</string>
+    <string name="airfrancetujuan">211</string>
+
+    <!-- String KLM -->
+    <string name="klmtitle">KLM</string>
+    <string name="klmnegara">Belanda</string>
+    <string name="klmhub">1. Amsterdam-Schipol International Airport</string>
+    <string name="klmaliansi">Skyteam</string>
+    <string name="klmarmada">115</string>
+    <string name="klmtujuan">145</string>
+
+    <!-- String British Airways -->
+    <string name="britishtitle">British Airways</string>
+    <string name="britishnegara">Britania Raya</string>
+    <string name="britishhub">1. London-Heathrow International Airport\n
+    2. London-Gatwick International Airport</string>
+    <string name="britishaliansi">Oneworld</string>
+    <string name="britisharmada">277</string>
+    <string name="britishtujuan">183</string>
+
+    <!-- String American Airlines -->
+    <string name="americantitle">American Airlines</string>
+    <string name="americannegara">Amerika Serikat</string>
+    <string name="americanhub">1. Los Angeles International Airport\n
+    2. Miami International Airport\n
+    3. New York-JFK International Airport</string>
+    <string name="americanaliansi">Oneworld</string>
+    <string name="americanarmada">910</string>
+    <string name="americantujuan">350</string>
+</resources>

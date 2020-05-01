@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KLMActivity">
+
+
+    <ImageView
+        android:id="@+id/klm"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/klm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/klmtitle"
+        style="@style/templatejudulmaskapai"
+        android:text="@string/klmtitle"
+        app:layout_constraintTop_toBottomOf="@id/klm"
+        />
+
+    <TextView
+        android:id="@+id/klmnegara"
+        style="@style/templatenegara"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/klmtitle"/>
+
+
+    <TextView
+        style="@style/templatenegara"
+        android:text="@string/klmnegara"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/klmnegara"
+        app:layout_constraintTop_toBottomOf="@id/klmtitle"
+        />
+
+    <TextView
+        android:id="@+id/klmhub"
+        style="@style/templatehub"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/klmnegara"/>
+
+    <TextView
+        android:id="@+id/listhub"
+        style="@style/templatehub"
+        app:layout_constraintTop_toBottomOf="@id/klmhub"
+        android:textColor="#FFFF6600"
+        android:text="@string/klmhub"/>
+
+    <TextView
+        android:id="@+id/klmaliansi"
+        style="@style/templatealiansi"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/listhub"/>
+
+    <TextView
+        android:id="@+id/aliansi"
+        style="@style/templatealiansi"
+        android:text="@string/klmaliansi"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/klmaliansi"
+        app:layout_constraintTop_toBottomOf="@id/listhub"
+        />
+
+    <TextView
+        android:id="@+id/klmarmada"
+        style="@style/templatearmada"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/klmaliansi"/>
+
+    <TextView
+        android:id="@+id/armada"
+        style="@style/templatearmada"
+        android:text="@string/klmarmada"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/klmarmada"
+        app:layout_constraintTop_toBottomOf="@id/klmaliansi"
+        />
+
+    <TextView
+        android:id="@+id/klmtujuan"
+        style="@style/templatetujuan"
+        android:textColor="#FF000000"
+        app:layout_constraintTop_toBottomOf="@+id/klmarmada"/>
+
+    <TextView
+        style="@style/templatetujuan"
+        android:text="@string/klmtujuan"
+        android:textColor="#FFFF6600"
+        app:layout_constraintLeft_toRightOf="@id/klmtujuan"
+        app:layout_constraintTop_toBottomOf="@id/klmarmada"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
