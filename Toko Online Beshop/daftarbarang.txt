@@ -1,0 +1,16 @@
+1	Headset			150 200000		Indonesia
+2	PowerBank		500 600000		Singapura
+3	Screenguard		100 350000		Indonesia
+4	Tongsis			250 450000		Indonesia
+5	Softcase		100 250000		China
+6	Kain_Lap		50 50000		Indonesia
+7	Ring_Case		50 90000		Malaysia
+8	Multiport_USB		50 150000		Thailand
+9	Kabel_USB		75 90000		Singapura
+10	Adaptor_Universal	150 400000		China
+11	SD_Card			25 300000		China
+12	Kabel_Data		50 125000		Indonesia
+13	Kabel_Charge_Tipe_C	50 100000		Malaysia
+14	Lensa_Fish_Eye		100 200000		Jepang
+15	Speaker_Portable	500 750000		China
+16	Hardcase		200 300000		Jepang

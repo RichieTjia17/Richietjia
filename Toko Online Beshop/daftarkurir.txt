@@ -1,0 +1,6 @@
+1 JNE		5000	
+2 JNT		5000	
+3 Tiki		5500	
+4 Pos_Indonesia	5500	
+5 Ninja_Express	4000	
+6 Wahana	3500
