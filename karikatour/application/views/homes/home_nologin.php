@@ -65,6 +65,12 @@
             font-family: arial;
             color: green;
         }
+
+        footer{
+            text-align:center;
+            background-color: #ffc107;
+            color: white;
+        }
     </style>
 </head>
 
@@ -154,6 +160,11 @@
     <p class="penjelasan">Website that help you to find a comfortable and easier tour destination</p>
 
     <p class="silakan">Please Click the Menu button on top left to explore the website further</p>
+
+    <footer>
+        <p>Copyright &copy; 2020 </p>
+        <p> By Richie & Juan</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

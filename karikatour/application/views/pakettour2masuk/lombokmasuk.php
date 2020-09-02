@@ -137,6 +137,12 @@
          .kanan:hover{
              color:red;
          }
+
+         footer{
+            text-align:center;
+            background-color: #ffc107;
+            color: white;
+        }
     </style>
 </head>
 
@@ -261,6 +267,11 @@
             
         </div>
     </div>
+
+    <footer>
+        <p>Copyright &copy; 2020 </p>
+        <p> By Richie & Juan</p>
+    </footer>
 
 
     

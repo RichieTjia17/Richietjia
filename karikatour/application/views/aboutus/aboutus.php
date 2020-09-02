@@ -64,6 +64,12 @@
     .pilihbahasa{
       margin-right:8px;
     }
+
+    footer{
+            text-align:center;
+            background-color: #ffc107;
+            color: white;
+        }
     </style>
   </head>
   <body>
@@ -191,6 +197,11 @@
       </div>
     </div>
   </div>
+
+  <footer>
+        <p>Copyright &copy; 2020 </p>
+        <p> By Richie & Juan</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

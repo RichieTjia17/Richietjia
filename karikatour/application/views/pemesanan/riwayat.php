@@ -72,6 +72,8 @@
             margin-top: 5%;
             margin-left: 5%;
         }
+
+        
     </style>
 </head>
 
@@ -233,6 +235,8 @@
         </div>
     </div>
 </div>
+
+
 <script>
     $('#exampleModal').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget) // Button that triggered the modal
